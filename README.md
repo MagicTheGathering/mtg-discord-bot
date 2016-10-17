@@ -1,7 +1,7 @@
 # Magic: The Gathering - Discord Bot
 This is a Magic: The Gathering Discord Bot that fetches card images.
 
-## Usage
+## Setup
 
 Install Dependencies
 
@@ -24,6 +24,21 @@ Once started, the bot's invite URL will be printed to the terminal. The URL look
 
 After accepting the invitation, your bot is ready for use.
 
+## Usage
+
+To use the bot, simply type a card's name between square brackets:
+
+    check out the [hinder] to [tunnel vision] combo
+
+You can also specify the set code in parenthese to get a particular version of the card:
+
+    check out the [hinder (chk)] to [tunnel vision] combo
+
+To see all set codes, hit the following endpoint:
+
+    https://api.magicthegathering.io/v1/sets
+
+![http://i.imgur.com/dgDLfZD.png](http://i.imgur.com/dgDLfZD.png)
 ## Development
 
 Execute the test suite
