@@ -30,7 +30,7 @@ To use the bot, simply type a card's name between square brackets:
 
     check out the [hinder] to [tunnel vision] combo
 
-You can also specify the set code in parenthese to get a particular version of the card:
+You can also specify the set code in parentheses to get a particular version of the card:
 
     check out the [hinder (chk)] to [tunnel vision] combo
 
