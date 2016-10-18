@@ -3,6 +3,14 @@ This is a Magic: The Gathering Discord Bot that fetches card images.
 
 ## Setup
 
+Create a new Discord Application
+
+[https://discordapp.com/developers/applications/me](https://discordapp.com/developers/applications/me)
+
+Download this Repository
+
+    $ git clone https://github.com/MagicTheGathering/mtg-discord-bot.git
+
 Install Dependencies
 
     $ bundle install
@@ -16,7 +24,7 @@ Edit __config/discord.yml__ with your token and client_id, or configure programm
 
 Start the bot
 
-    rake
+    $ rake
 
 Once started, the bot's invite URL will be printed to the terminal. The URL looks like this:
 
